@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>angularjs-morph</title>
+</head>
+<body ng-controller="AppCtrl as $ctrl">
+  <h1>angularjs-morph</h1>
+
+  <strong>this:</strong>
+  <pre ng-bind="$ctrl.snippets.pre">
+  </pre>
+
+  <strong>turns into this:</strong>
+  <pre ng-bind="$ctrl.snippets.post">
+  </pre>
+
+  <strong>likewise:</strong> 
+
+  <br/>
+
+  <morph-into
+    tag="a"
+    attrs="{ title: $ctrl.title, href: $ctrl.href }">
+    {{$ctrl.text}}
+  </morph-into>
+
+  <script src="bundle.js"></script>
+</body>
+</html>
