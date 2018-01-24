@@ -29,7 +29,7 @@ angular.module('myApp', ['angularjs-morph'])
 string. a tag name.
 
 
-#### - `attrs=` 
+#### `attrs=` 
 object. every value will be assigned to an attribute of the key's name
 
 #### text

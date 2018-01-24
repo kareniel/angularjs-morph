@@ -2,11 +2,12 @@
   "name": "angularjs-morph",
   "version": "1.0.0",
   "description": "compile angularjs components dynamically",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "start": "npm run example",
     "example": "budo example:bundle.js --dir=example --live",
-    "test": "node test | tap-spec"
+    "test": "node test | tap-spec",
+    "build": "browserify example/index.js > example/bundle.js"
   },
   "repository": {
     "type": "git",
