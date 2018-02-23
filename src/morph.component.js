@@ -21,7 +21,10 @@ function Morph ($element, $compile, $scope) {
     $element.replaceWith(compiledEl)
   }
 
-  ctrl._buildElement = function (tag, attrs = {}, text = '') {
+  ctrl._buildElement = function (tag, attrs, text) {
+    attrs = attrs || {}
+    text = text || ''
+
     var el = document.createElement(tag)
     var $el = angular.element(el)
 
