@@ -1,6 +1,6 @@
 {
   "name": "angularjs-morph",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "compile angularjs components dynamically",
   "main": "src/index.js",
   "scripts": {

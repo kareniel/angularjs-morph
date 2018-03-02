@@ -1,4 +1,4 @@
-var assert = require('assert')
+Morph.$inject = ['$element', '$compile', '$scope']
 
 module.exports = {
   controller: Morph,
@@ -12,8 +12,6 @@ function Morph ($element, $compile, $scope) {
   var ctrl = this
 
   ctrl.$postLink = function () {
-    assert.equal(typeof ctrl.tag, 'string', 'tag must be a string')
-
     var text = $element.html()
     var el = ctrl._buildElement(ctrl.tag, ctrl.attrs, text)
     var compiledEl = $compile(el)($scope.$parent)
