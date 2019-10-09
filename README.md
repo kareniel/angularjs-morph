@@ -1,5 +1,8 @@
 # angularjs-morph
 
+[![npm version](https://badge.fury.io/js/angularjs-morph.svg)](https://www.npmjs.com/package/angularjs-morph)
+[![npm](https://img.shields.io/npm/dw/angularjs-morph.svg)](https://www.npmjs.com/package/angularjs-morph)
+
 sometimes the type of component you want to render will change depending on some input.
 this is a component that morphs in a specified component.
 
