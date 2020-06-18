@@ -29,10 +29,10 @@
   },
   "homepage": "https://github.com/kareniel/angularjs-morph#readme",
   "peerDependencies": {
-    "angular": "1.7.9"
+    "angular": "1.8.0"
   },
   "devDependencies": {
-    "angular": "1.7.9",
+    "angular": "1.8.0",
     "angular-mocks": "1.5.6",
     "budo": "^11.6.2",
     "standard": "^10.0.3",
